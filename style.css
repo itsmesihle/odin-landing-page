@@ -1,5 +1,25 @@
 * {
   font-family: Arial, Helvetica, sans-serif;
+  padding: 0px 10px 0px 10px;
+}
+#logo {
+  width: 49%;
+  background-color: yellow;
+}
+
+#nav {
+  display: flex;
+  direction: row;
+  align-content: end;
+  justify-content: flex-end;
+  width: 49%;
+  background-color: limegreen;
+  /* border: 2px dashed red; */
+}
+
+#nav div {
+  border: 2px dashed yellow;
+  align-items: flex-end;
 }
 
 #quote {
