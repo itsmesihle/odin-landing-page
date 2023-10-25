@@ -9,6 +9,7 @@ I have broken up the landing page into 3 main sections:
    - [x] logo
      - an icon maybe from flaticon \* <a href="https://www.flaticon.com/free-icons/user" title="user icons">User icons created by Freepik - Flaticon</a>
    - nav bar with hyperlinks
+   - position nav bar to the right
    - 50% width quick intro with sign up button, 50% width image on the side
 
 2. ### Body
