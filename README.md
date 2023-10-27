@@ -32,6 +32,31 @@ Here is an example of said landing page <insert image here>
 
 ![inspiration of landing page](https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/01.png)
 
+## git branches will be named and used as follows
+
+1. main
+
+   - nav bar and .home section of page
+   - any and all items, all other styling and features of above shall be completed in this branch
+
+2. faqs
+
+   - insert the 4 images under figure with fig captions describing what the above images are
+   - each depicting one of the following:
+     -- liverpool fc
+     -- watching sports
+     -- reading
+     -- programming
+   - space and everything
+
+3. quote
+
+   - my favourite quote
+   - and little citation of who said the quote
+
+4. call-to-action
+   - little message and contact me button on the side
+
 ---
 
 The page can be filled with real or fictitious content
