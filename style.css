@@ -57,12 +57,12 @@ a:active {
 }
 
 h3 {
-  padding: none;
-  margin: none;
+  padding: 0px;
+  margin: 0px;
   font-size: 48px;
   color: #f9faf8;
   font-weight: bold;
-  background-color: red;
+  /* background-color: #1f2937; */
 }
 h4 {
   font-size: 18px;
