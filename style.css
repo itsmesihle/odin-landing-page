@@ -47,6 +47,12 @@
   height: 30px;
 }
 
+#FAQs {
+  background-color: yellow;
+  display: flex;
+  direction: row;
+}
+
 section .FAQs {
   background-color: white;
 }
