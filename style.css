@@ -6,6 +6,11 @@
   /*  width: 80%; */
 }
 
+section {
+  padding: none;
+  margin: none;
+}
+
 #nav {
   font-size: 18px;
   display: flex;
@@ -14,6 +19,7 @@
   justify-content: flex-end;
   width: 100%; /* still need to center entire nav bar, and shrink width to 80% of body */
   background-color: #1f2937;
+  /* background-color: aqua; */
 }
 
 #logo {
@@ -26,25 +32,63 @@
   align-items: flex-end;
   color: #f9faf8;
   width: 12%;
-  font-size: 16px;
+  font-size: 18px;
   padding: 0px 10px 0px 0px;
   justify-items: center;
   /* nav item links need to be color in white when unvisited, maybe change color when visited, and enlarge when hovered over */
 }
 
-.home {
-  background-color: #1f2937;
-  display: flex;
+a:hover {
+  color: #e5e7eb;
 }
 
-.home-introduction {
+a:active {
+  color: orange;
+}
+/* a:link {
+  color: red;
+} think doesn't seem to work for whatever reason */
+
+#home {
+  /*  parent */
+  background-color: #1f2937;
+  display: flex;
+  direction: column;
+}
+
+h3 {
+  padding: none;
+  margin: none;
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: bold;
+  background-color: red;
+}
+h4 {
   font-size: 18px;
+  color: #e5e7eb;
+}
+button {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  padding: 0px 15px 0px 15px;
+  border-radius: 5px;
+  border-color: #e5e7eb;
+  border-width: 1px;
+}
+.home-introduction {
+  width: 50%;
+  /*  height: 30px; */
+  padding: none;
+  /* background-color: yellow; */
+  /* justify-content: center; */
 }
 
 .home-image {
   padding: none;
-  width: 40px;
-  height: 30px;
+  width: 50%;
+  /*  height: 30px; */
+  background-color: #3882f6;
 }
 
 section .FAQs {
