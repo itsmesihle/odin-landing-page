@@ -91,6 +91,12 @@ button {
   background-color: #3882f6;
 }
 
+#FAQs {
+  background-color: yellow;
+  display: flex;
+  direction: row;
+}
+
 section .FAQs {
   background-color: white;
 }
