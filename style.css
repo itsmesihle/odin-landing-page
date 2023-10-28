@@ -1,14 +1,8 @@
 * {
   font-family: Arial, Helvetica, sans-serif;
   padding: 0px 0px 0px 0px;
-  margin: none;
-
+  margin: 0%;
   /*  width: 80%; */
-}
-
-section {
-  padding: none;
-  margin: none;
 }
 
 #nav {
@@ -31,23 +25,24 @@ section {
 #nav div {
   align-items: flex-end;
   color: #f9faf8;
-  width: 12%;
+  width: 10%;
   font-size: 16px;
   padding: 0px 10px 0px 0px;
   justify-items: center;
   /* nav item links need to be color in white when unvisited, maybe change color when visited, and enlarge when hovered over */
 }
 
-a:hover {
+a:link {
   color: #e5e7eb;
+}
+
+a:hover {
+  color: #3882f6;
 }
 
 a:active {
   color: orange;
 }
-/* a:link {
-  color: red;
-} think doesn't seem to work for whatever reason */
 
 #home {
   /*  parent */
@@ -79,25 +74,38 @@ button {
 .home-introduction {
   width: 50%;
   /*  height: 30px; */
-  padding: none;
   /* background-color: yellow; */
   /* justify-content: center; */
 }
 
 .home-image {
-  padding: none;
   width: 50%;
   /*  height: 30px; */
   background-color: #3882f6;
 }
 
-#FAQs {
-  background-color: yellow;
+#about {
+  background-color: red;
+}
+
+.about-images div {
+  background-color: rgb(255, 255, 0);
   display: flex;
   direction: row;
 }
 
-section .FAQs {
+.images {
+  width: 100px;
+  height: 100px;
+  padding: 5px 10px;
+  background-color: white;
+}
+
+div .about {
+  color: aqua;
+}
+
+section .about {
   background-color: white;
 }
 
@@ -105,10 +113,11 @@ section .quote {
   background-color: #e5e7eb;
 }
 
-section .call-to-action {
+section .contact-me {
   background-color: white;
 }
 
 footer {
   background-color: #1f2937;
+  color: #e5e7eb;
 }
