@@ -40,12 +40,16 @@ a:link {
   color: #e5e7eb;
 }
 
-a:hover {
-  color: #3882f6;
+a:visited {
+  color: #e5e7eb;
+  text-decoration: none;
 }
 
 a:active {
   color: orange;
+}
+a:hover {
+  color: #3882f6;
 }
 
 #home {
