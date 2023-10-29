@@ -32,6 +32,10 @@
   /* nav item links need to be color in white when unvisited, maybe change color when visited, and enlarge when hovered over */
 }
 
+a {
+  text-decoration: none;
+}
+
 a:link {
   color: #e5e7eb;
 }
