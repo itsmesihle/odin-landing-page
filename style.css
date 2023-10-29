@@ -39,15 +39,15 @@ a {
 a:link {
   color: #e5e7eb;
 }
+a:active {
+  color: orange;
+}
 
 a:visited {
   color: #e5e7eb;
   text-decoration: none;
 }
 
-a:active {
-  color: orange;
-}
 a:hover {
   color: #3882f6;
 }
@@ -128,4 +128,7 @@ section .contact-me {
 footer {
   background-color: #1f2937;
   color: #e5e7eb;
+  justify-content: center;
+  text-align: center;
+  padding: 10px 0px;
 }
