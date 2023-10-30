@@ -6,6 +6,7 @@ body {
   background-color: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  overflow-x: hidden; /*  hides the scroll bar that appears on the horizontal axis */
   /*  width: 80%; */
 }
 
