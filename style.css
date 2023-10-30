@@ -48,9 +48,6 @@ a {
 a:link {
   color: #e5e7eb;
 }
-a:active {
-  color: orange;
-}
 
 a:visited {
   color: #e5e7eb;
@@ -63,9 +60,12 @@ a:hover {
 
 #home {
   /*  parent */
-  background-color: #1f2937;
   display: flex;
   direction: column;
+  background-color: #1f2937;
+  color: #f9faf8;
+  text-align: left;
+  padding-left: 100px;
 }
 
 h3 {
@@ -76,29 +76,40 @@ h3 {
   font-weight: bold;
   /* background-color: #1f2937; */
 }
-h4 {
+
+.home-introduction p {
   font-size: 18px;
   color: #e5e7eb;
+  opacity: 0.75;
 }
+
 button {
   background-color: #3882f6;
   color: #e5e7eb;
-  padding: 0px 15px 0px 15px;
+  padding: 5px 15px 5px 15px;
   border-radius: 5px;
   border-color: #e5e7eb;
   border-width: 1px;
+  text-align: center;
+  font-weight: bold;
 }
 .home-introduction {
   width: 50%;
-  /*  height: 30px; */
-  /* background-color: yellow; */
   /* justify-content: center; */
 }
 
 .home-image {
   width: 50%;
-  /*  height: 30px; */
+  /* background-color: transparent; */
   background-color: #3882f6;
+  align-content: right;
+}
+
+.home-image img {
+  max-width: 500px;
+  max-height: 350px;
+  border-radius: 10px;
+  padding-right: 100px;
 }
 
 .about-images div {
