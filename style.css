@@ -94,6 +94,7 @@ button {
   border-width: 1px;
   text-align: center;
   font-weight: bold;
+  box-shadow: 5px 5px 50px #f9faf8;
 }
 .home-introduction {
   width: 50%;
