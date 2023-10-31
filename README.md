@@ -71,7 +71,7 @@ Here is an example of said landing page <insert image here>
    - [] need to center on both axis, <p> needs to be below the image, and bold
 
 3. Quote section
-   - [] fix the author of quote, below quote
+   - [x] fix the author of quote, below quote
 
 ---
 
@@ -91,5 +91,3 @@ Photo credit
 * Photo by <a href="https://unsplash.com/@hellodimeji?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Oladimeji Ajegbile</a> on <a href="https://unsplash.com/photos/man-reading-inside-room-DNVNvFE5oms?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
 * Photo by <a href="https://unsplash.com/@sonance?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Viktor Forgacs</a> on <a href="https://unsplash.com/photos/man-sitting-beside-cup-of-coffee-x7h5HLsBYwo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-
-* Photo by <a href="https://unsplash.com/@jimmy_conover?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jimmy Conover</a> on <a href="https://unsplash.com/photos/people-watching-baseball-SEQ2VI0KI6A?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
