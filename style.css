@@ -25,10 +25,11 @@ body {
 }
 
 #logo {
-  width: 100%;
+  /* width: 100%; */
   font-size: 24px;
   color: #f9faf8;
   text-align: left;
+  flex: 1;
   padding: 5px 5px 5px 100px;
 }
 
@@ -126,10 +127,41 @@ button {
   background-color: white;
 }
 
-div .about {
-  color: aqua;
+/* contact me */
+
+#contact-me {
+  display: flex;
+  background-color: #3882f6;
+  margin: 50px 200px;
+  padding: 10px 80px;
+  border-radius: 8px;
+  border: #e5e7eb;
+  align-items: center;
 }
 
+#contact-me h4 {
+  text-align: left;
+  color: white;
+  align-items: left;
+}
+
+#contact-me p {
+  text-align: left;
+  color: white;
+  opacity: 0.8;
+}
+
+.contact-me-button {
+  flex: 1;
+}
+
+#contact-me button {
+  background-color: #3882f6;
+  padding: 5px 25px 5px 25px;
+  justify-content: center;
+}
+
+/* footer section */
 footer {
   background-color: #1f2937;
   color: #e5e7eb;
