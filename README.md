@@ -15,17 +15,18 @@ I have broken up the landing page into 3 main sections:
 
 2. ### Body
 
-   - slideshow of some of my interests in picture form, from unsplash, pixabay, pexels
-     - liverpool fc
-     - watching sports
-     - reading
-     - programming
-   - quote section
-   - call to action
-     - follow along with me, as i learn to programming..."follow me" leads to twitter account
+   - [] slideshow of some of my interests in picture form, from unsplash, pixabay, pexels
+     - [x] liverpool fc
+     - [x] watching sports
+     - [x] reading
+     - [x] programming
+   - [] quote section
+   - [] call to action
+     - [x] sign up to blah b;ah blah
+     - [] follow along with me, as i learn to programming..."follow me" leads to twitter account
 
 3. ### Footer
-   - copyright @ Sihle Ndlovu
+   - copyright @ Odin Project & Sihle Ndlovu
 
 Here is an example of said landing page <insert image here>
 
@@ -58,9 +59,21 @@ Here is an example of said landing page <insert image here>
 4. call-to-action
    - little message and contact me button on the side
 
----
+## Things that still need to be done
 
-The page can be filled with real or fictitious content
+1. Home section
+
+   - [] thought needs to be given into what to put into the content for the paragraph
+   - [] img needs to be centered on both axis and border radius needs to be checked
+
+2. About section/images
+
+   - [] need to center on both axis, <p> needs to be below the image, and bold
+
+3. Quote section
+   - [] fix the author of quote, below quote
+
+---
 
 Photo credit
 
