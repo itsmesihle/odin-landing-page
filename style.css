@@ -143,7 +143,7 @@ button {
   direction: column;
   flex: wrap;
   align-items: center;
-  padding: 5px 5px;
+  padding: 25px 5px 25px 5px;
   background-color: white;
 }
 
@@ -163,10 +163,10 @@ button {
 /* quote section  */
 
 #quote {
-  display: flex;
-  direction: row;
+  /* display: flex;
+  direction: column; */
   background-color: #e5e7eb;
-  padding: 20px 200px;
+  padding: 25px 200px 25px 200px;
 }
 
 #quote p {
@@ -174,13 +174,11 @@ button {
   color: #1f2937;
   font-style: italic;
   font-weight: lighter;
-  font-family: "Roboto", arial;
 }
 
 #quote b {
-  padding-bottom: 20px;
   padding-right: 10px;
-  font-family: "Roboto", arial;
+  padding-bottom: 20px;
   text-align: right;
 }
 
