@@ -5,9 +5,9 @@ body {
   margin: 0px;
   background-color: #ffffff;
   font-family: "Roboto", arial;
+  align-content: center;
   text-align: center;
   overflow-x: hidden; /*  hides the scroll bar that appears on the horizontal axis */
-  /*  width: 80%; */
 }
 
 /* navigation bar */
@@ -71,7 +71,7 @@ a:hover {
 }
 
 h3 {
-  padding: 0px;
+  padding-top: 20px;
   margin: 0px;
   font-size: 48px;
   color: #f9faf8;
@@ -124,6 +124,8 @@ button {
 
 #about h3 {
   color: #1f2937;
+  padding: 20px;
+  font-weight: bold;
 }
 
 .about-images {
@@ -207,14 +209,14 @@ button {
 }
 
 .contact-me-button {
-  flex: 1;
+  flex: 1; /* does the flex: 1 mean that the scale doesnt change or kanjani */
 }
 
 #contact-me button {
   background-color: #3882f6;
   padding: 5px 25px 5px 25px;
   justify-content: center;
-  box-shadow: 10px 10px 25px #1f2937; /* box-shadow: right bottom blurr effect color; */
+  box-shadow: 10px 10px 25px #1f2937; /* box-shadow: right bottom blur effect color; */
 }
 
 /* footer section */
