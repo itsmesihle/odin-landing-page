@@ -126,8 +126,31 @@ button {
   padding: 5px 10px;
   background-color: white;
 }
+/* quote section  */
 
-/* contact me */
+#quote {
+  display: flex;
+  direction: row;
+  background-color: #e5e7eb;
+  padding: 20px 200px;
+}
+
+#quote p {
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+  font-weight: lighter;
+  font-family: "Roboto", arial;
+}
+
+#quote b {
+  padding-bottom: 20px;
+  padding-right: 10px;
+  font-family: "Roboto", arial;
+  text-align: right;
+}
+
+/* contact me section */
 
 #contact-me {
   display: flex;
