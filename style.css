@@ -138,16 +138,21 @@ button {
   padding: 10px 100px;
 }
 
-.images {
+/* .images {
   display: flex;
   direction: column;
   flex: wrap;
   align-items: center;
   padding: 25px 5px 25px 5px;
   background-color: white;
+} */
+
+.about-images figure {
+  display: flex;
+  flex-direction: column;
 }
 
-.images img {
+.about-images figure img {
   width: 200px;
   height: 200px;
   object-fit: cover;
@@ -156,7 +161,8 @@ button {
   margin: 5px 20px 0px 20px;
 }
 
-.images p {
+.about-images figure figcaption {
+  text-align: center;
   color: #1f2937;
 }
 
