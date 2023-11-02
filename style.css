@@ -10,6 +10,9 @@ body {
   overflow-x: hidden; /*  hides the scroll bar that appears on the horizontal axis */
 }
 
+h5 {
+  display: none;
+}
 /* navigation bar */
 
 #nav {
@@ -138,7 +141,7 @@ button {
   direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 10px 100px;
+  padding: 10px 80px;
 }
 
 /* .images {
@@ -161,12 +164,13 @@ button {
   object-fit: cover;
   border: 4px solid #3882f6;
   border-radius: 15px;
-  margin: 5px 20px 0px 20px;
+  margin: 5px 10px;
 }
 
 .about-images figure figcaption {
   text-align: center;
   color: #1f2937;
+  padding-bottom: 15px;
 }
 
 /* quote section  */
@@ -184,9 +188,8 @@ button {
 }
 
 #quote .author {
-  padding-right: 10px;
-  /* padding-bottom: 20px;
-  text-align: right; */
+  /*   padding-right: 10px;
+  padding-bottom: 20px;  I still want to have these properties applied*/
   float: right;
   clear: both;
 }
