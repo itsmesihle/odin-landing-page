@@ -215,7 +215,7 @@ button {
 #contact-me h4 {
   text-align: left;
   color: white;
-  align-items: left;
+  /*  align-items: left; */
 }
 
 #contact-me p {
