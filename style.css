@@ -170,6 +170,7 @@ button {
 .about-images figure figcaption {
   text-align: center;
   color: #1f2937;
+  padding-top: 10px;
   padding-bottom: 15px;
 }
 
