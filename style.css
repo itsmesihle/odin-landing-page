@@ -50,6 +50,10 @@ h5 {
   /* nav item links need to be color in white when unvisited, maybe change color when visited, and enlarge when hovered over */
 }
 
+#nav .contact-me {
+  padding-right: 200px;
+}
+
 a {
   text-decoration: none;
 }
