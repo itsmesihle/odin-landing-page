@@ -69,6 +69,7 @@ a:visited {
 
 a:hover {
   color: #3882f6;
+  cursor: pointer;
 }
 
 #home {
@@ -107,6 +108,7 @@ button {
   border-width: 1px;
   text-align: center;
   font-weight: bold;
+  cursor: pointer;
   /* box-shadow: 5px 5px 50px #f9faf8; */
 }
 .home-introduction {
