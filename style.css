@@ -28,8 +28,10 @@ h5 {
 }
 section#logo {
   background: linear-gradient(to right, #3882f6, #e5e7eb);
-  -webkit-background-clip: text;
+  -webkit-background-clip: text; /* gradient applied to background, then turned the background gradient into the text */
   -webkit-text-fill-color: transparent;
+  pointer-events: none; /* makes text unselectable */
+  opacity: 0; /*the text disappears, similar to display: none, but elements still exists */
 }
 
 #nav div {
@@ -40,11 +42,10 @@ section#logo {
   /* width: 100%; */
   font-size: 24px;
   font-weight: bolder;
-  /*   color: #f9faf8; */
+  color: #f9faf8;
   text-align: left;
   flex: 1;
   padding: 5px 5px 5px 200px;
-  pointer-events: none;
 }
 
 #nav div {
