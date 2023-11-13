@@ -1,4 +1,7 @@
 /* universal  */
+html {
+  scroll-behavior: smooth; /* details how <a>s behave when clipped or navigated to */
+}
 
 body {
   padding: 0px 0px 0px 0px;
@@ -31,7 +34,16 @@ section#logo {
   -webkit-background-clip: text; /* gradient applied to background, then turned the background gradient into the text */
   -webkit-text-fill-color: transparent;
   pointer-events: none; /* makes text unselectable */
-  opacity: 0; /*the text disappears, similar to display: none, but elements still exists */
+  animation: fade 2s ease-in 1s;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 #nav div {
