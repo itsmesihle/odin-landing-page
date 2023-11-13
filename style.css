@@ -26,6 +26,11 @@ h5 {
   font-size: 18px;
   background-color: #1f2937;
 }
+section#logo {
+  background: linear-gradient(to right, #3882f6, #e5e7eb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 #nav div {
   max-width: 100px;
@@ -34,10 +39,12 @@ h5 {
 #logo {
   /* width: 100%; */
   font-size: 24px;
-  color: #f9faf8;
+  font-weight: bolder;
+  /*   color: #f9faf8; */
   text-align: left;
   flex: 1;
   padding: 5px 5px 5px 200px;
+  pointer-events: none;
 }
 
 #nav div {
