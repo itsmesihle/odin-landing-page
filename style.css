@@ -30,11 +30,11 @@ h5 {
   background-color: #1f2937;
 }
 section#logo {
-  background: linear-gradient(to right, #3882f6, #e5e7eb);
+  background: linear-gradient(to right, #3882f6, red, #e5e7eb);
   -webkit-background-clip: text; /* gradient applied to background, then turned the background gradient into the text */
   -webkit-text-fill-color: transparent;
   pointer-events: none; /* makes text unselectable */
-  animation: fade 2s ease-in 1s;
+  animation: fade 3s ease-in 2s;
 }
 
 @keyframes fade {
