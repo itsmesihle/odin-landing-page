@@ -1,6 +1,6 @@
 ## odin-landing-page
 
-Landing page project from The Odin Project
+Landing page project
 
 I have broken up the landing page into 3 main sections:
 
