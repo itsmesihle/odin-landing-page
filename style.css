@@ -137,6 +137,11 @@ button {
   padding-right: 10px;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .home-image {
   width: 50%;
   background-color: transparent;
