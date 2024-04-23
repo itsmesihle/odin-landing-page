@@ -328,6 +328,11 @@ footer {
     display: none;
   }
 
+  #quote {
+    padding: 5px;
+    font-size: 24px;
+  }
+
   #contact-me {
     display: block; /* Change to block display */
     margin: 20px;
